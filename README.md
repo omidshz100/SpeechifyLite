@@ -36,30 +36,6 @@ Troubleshooting
 Contributing
 - Contributions are welcome. Please fork and open pull requests. If you'd like me to add features (auto-scroll while highlighting, language-aware tokenization, persistence of preferences), tell me which and I'll implement them.
 
-# SpeechifyLite
-
-A macOS Text-to-Speech reader built with SwiftUI and AVFoundation.
-
-## Features
-- Text-to-Speech using system voices
-- Language and voice selection
-- Adjustable speech rate
-- Pause / Resume / Stop
-- Native macOS UI
-
-## Architecture
-- SwiftUI for UI
-- AVSpeechSynthesizer as a standalone engine
-- Index-based voice selection to avoid SwiftUI Picker instability
-
-## Accessibility
-- Keyboard friendly
-- System voice integration
-
-## Why this project
-Inspired by Speechify's mission to make reading accessible.
-
-
 License
 - No license is included by default. Add a LICENSE file (for example MIT) if you plan to publish this project.
 
